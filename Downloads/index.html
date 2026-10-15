@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Catalog</title>
+
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+<!-- Containing 3 links to the following pages: Home, About, Contact -->
+<header> 
+    <h1>Product Catalog</h1>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- Main section -->
+<main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our Product Store!</p>
+        </section>
+
+        <!-- Products section with 4 filter buttons -->
+        <section id="products">
+            <h2>Our Products</h2>
+
+            <div id="filterButtons">
+                <button id="all">All</button>
+                <button id="category1">Electronics</button>
+                <button id="category2">Clothes</button>
+                <button id="category3">Accessories</button>
+            </div>
+
+            <!-- Product grid section to display products -->
+            <div id="productGrid">
+                <!-- Product list??? -->
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please reach out to us</p>
+            
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Product Catalog. All rights reserved.</p>
+        <p>Created by: WI 1</p>
+    </footer>
+</body>
+</html>
